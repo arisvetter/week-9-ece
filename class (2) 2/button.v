@@ -4,8 +4,8 @@ module button(
     wire [4:0] brute;
     assign brute[0] = btnL;
     assign brute[1] = btnU;
-    assign brute[0] = btnD;
-    assign brute[1] = btnR;
-    assign brute[0] = btnC;
+    assign brute[2] = btnD;
+    assign brute[3] = btnR;
+    assign brute[4] = btnC;
 
 endmodule

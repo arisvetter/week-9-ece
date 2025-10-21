@@ -15,7 +15,10 @@ In this lab you have learned about multiplexers and demultiplexers.
 
 ### In plain English describe the function and use of a multiplexer.
 
+A multiplexor selects between different input options and forwards one of the input options along. The selection choice is based on a selector switch(or multiple switches).
+
 ### In plain English describe the function and use of a demultiplexer.
+A demultiplexer is the reverse of a multiplexer--it selects one output of multiple, based on one input. That input is the selector switch(es).
 
 ### What other uses might these circuits have? (Think Shannon’s)
 
