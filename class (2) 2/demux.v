@@ -7,9 +7,9 @@ module demux(
     output [1:0] ribShack
 );
 
-    assign localLib = (Sel == 'b00 ? In : 0000); // Drive Y1 if Sel == 0
-    assign fireDep = (Sel == 'b01 ? In : 0000); // Drive Y2 if Sel == 1
-    assign school = (Sel == 'b10 ? In : 0000); // Drive Y3 if Sel == 0
-    assign ribShack = (Sel == 'b11 ? In : 0000); // Drive Y4 if Sel == 1
+    assign localLib = (Sel == 'b00 ? UserData : 0000); // Drive Y1 if Sel == 0
+    assign fireDep = (Sel == 'b01 ? UserData : 0000); // Drive Y2 if Sel == 1
+    assign school = (Sel == 'b10 ? UserData : 0000); // Drive Y3 if Sel == 0
+    assign ribShack = (Sel == 'b11 ? UserData : 0000); // Drive Y4 if Sel == 1
 
 endmodule
