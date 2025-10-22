@@ -28,3 +28,5 @@ In our lab, our demux is has two selectors (buttons D and R), and sets all of th
 
 ### What other uses might these circuits have? (Think Shannon’s)
 
+You can use Shannon's expansion to transform pretty much any boolean function into a function compatible with mux/demux'ers thus, the possibilities are essentially endless. Any system involving data/information routing (electrical busses, audio/video equiptment, etc.) can be solved with multiplexers & demultiplexers instead of a huge array of adders/logic gates. 
+
